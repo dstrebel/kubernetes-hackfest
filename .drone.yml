@@ -2,7 +2,7 @@ pipeline:
   build:
     image: plugins/docker
     repo: /kubernetes-hackfest
-    dockerfile: ./app/service-tracker-ui/Dockerfile
+    dockerfile: ./app/quakes-api/Dockerfile
     tags:
       - 1.0.0
       - 1.0
