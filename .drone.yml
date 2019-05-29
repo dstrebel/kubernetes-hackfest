@@ -1,0 +1,8 @@
+pipeline:
+  build:
+    image: plugins/docker
+    repo: /kubernetes-hackfest
+    tags:
+      - 1.0.0
+      - 1.0
+      - la
